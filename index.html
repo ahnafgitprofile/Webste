@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Ahnaf Shakib | Photography Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">AS</div>
+      <div class="brandText">
+        <div class="name">Md. Ahnaf Shakib</div>
+        <div class="tagline">Student • Photographer • Moments Capturer</div>
+      </div>
+    </div>
+
+    <!-- 3 dots menu -->
+    <div class="menuWrap">
+      <button class="dotsBtn" id="dotsBtn" aria-label="Open menu" aria-expanded="false">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </button>
+
+      <!-- 5 buttons -->
+      <nav class="menu" id="menu" aria-label="Quick navigation">
+        <a class="menuItem" href="#home">Home</a>
+        <a class="menuItem" href="#about">About</a>
+        <a class="menuItem" href="#info">Personal Info</a>
+        <a class="menuItem" href="#works">Works</a>
+        <a class="menuItem" href="#contact">Reach Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="home" class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="heroText">
+        <p class="hello">Hello, I’M</p>
+        <h1 class="heroName">Md. Ahnaf Shakib<span class="accentDot">.</span></h1>
+        <p class="heroLine">
+          A student who loves <span class="accent">photography</span>.
+        </p>
+
+        <div class="heroChips">
+          <span class="chip">Photographer</span>
+          <span class="chip">Photo Editor</span>
+          <span class="chip">CSE Student</span>
+        </div>
+
+        <div class="heroBtns">
+          <a class="btn primary" href="#works">See My Works</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="heroPhoto">
+        <div class="photoFrame">
+          <img src="images/myphoto.jpg" alt="Md. Ahnaf Shakib" />
+        </div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="card">
+      <div class="cardHead">
+        <h2>About Me</h2>
+        <div class="line"></div>
+      </div>
+
+      <p class="para">
+        My name is <strong>Md. Ahnaf Shakib</strong>. I’m a student in <strong>CSE</strong> at the
+        <strong>University of Asia Pacific</strong> (ongoing). I love capturing moments through photography,
+        editing photos, and alongside that, I’m also learning programming to build my skills for the future.
+      </p>
+    </section>
+
+    <!-- Personal Info -->
+    <section id="info" class="grid2">
+      <div class="card">
+        <div class="cardHead">
+          <h2>Personal Info</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="infoGrid">
+          <div class="infoRow"><span class="k">Name</span><span class="v">Md. Ahnaf Shakib</span></div>
+          <div class="infoRow"><span class="k">Date of birth</span><span class="v">2 November 2002</span></div>
+          <div class="infoRow"><span class="k">Address</span><span class="v">Dhaka, Bangladesh</span></div>
+          <div class="infoRow"><span class="k">Hobby</span><span class="v">Photography, Editing, Programming</span></div>
+          <div class="infoRow"><span class="k">Language</span><span class="v">Bangla, English</span></div>
+          <div class="infoRow"><span class="k">Nationality</span><span class="v">Bangladesh</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardHead">
+          <h2>Skills</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="skills">
+          <div class="skillBox">
+            <div class="skillTitle">Photography</div>
+            <div class="skillBar"><span style="width: 90%"></span></div>
+          </div>
+
+          <div class="skillBox">
+            <div class="skillTitle">Programming (Java, C, Python)</div>
+            <div class="skillBar"><span style="width: 60%"></span></div>
+          </div>
+
+          <div class="miniNote">
+            <span class="accentStar">✦</span> I’m improving my programming skills step-by-step.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+      <div class="cardHead">
+        <h2>Education</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="timeline">
+        <div class="tItem">
+          <div class="tDot"></div>
+          <div class="tContent">
+            <div class="tTitle">BSc in CSE — University of Asia Pacific (Ongoing)</div>
+          </div>
+        </div>
+
+        <div class="tItem">
+          <div class="tDot"></div>
+          <div class="tContent">
+            <div class="tTitle">HSC — Mohammadpur Preparatory College</div>
+          </div>
+        </div>
+
+        <div class="tItem">
+          <div class="tDot"></div>
+          <div class="tContent">
+            <div class="tTitle">SSC — Govt. Science School</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="card">
+      <div class="cardHead">
+        <h2>Works</h2>
+        <div class="line"></div>
+      </div>
+
+      <p class="para subtle">4 photos from my photography works.</p>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img src="images/photo1.jpg" alt="Photo 1" />
+          <figcaption>Photo 1</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img src="images/photo2.jpg" alt="Photo 2" />
+          <figcaption>Photo 2</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img src="images/photo3.jpg" alt="Photo 3" />
+          <figcaption>Photo 3</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img src="images/photo4.jpg" alt="Photo 4" />
+          <figcaption>Photo 4</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card contact">
+      <div class="cardHead">
+        <h2>Reach Me Out</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="contactGrid">
+        <div class="contactItem">
+          <div class="label">Email</div>
+          <a class="value" href="mailto:23101191@uap-bd.edu">23101191@uap-bd.edu</a>
+        </div>
+        <div class="contactItem">
+          <div class="label">Phone</div>
+          <a class="value" href="tel:+8801961487489">01961487489</a>
+        </div>
+      </div>
+
+      <div class="footerNote">
+        <span class="accentStar">✦</span> Thank you for visiting my portfolio.
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© 2026 Md. Ahnaf Shakib</div>
+
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
